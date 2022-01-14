@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baith</title>
+</head>
+<body>
+<script>
+    let confirmAnswer = confirm("Bạn muốn chơi cờ không ?");
+    function processAnswer(Answer) {
+        let result = ""
+        if (Answer) {
+            result = "Tuyệt vời . Tôi sẽ chơi với bạn"
+        } else {
+            "Lần sau nhé"
+        }
+        return result;
+    }
+    let theAnswer =processAnswer(confirmAnswer);
+    alert(theAnswer);
+</script>
+</body>
+</html>
